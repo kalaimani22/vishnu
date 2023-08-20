@@ -4,8 +4,9 @@ import test2 from "./images/3.jpg";
 import test3 from "./images/4.jpg";
 import logo from "./images/camera.png";
 import wood from "./images/wood.png";
-
 import "./App.css";
+// import ContactForm from "./components/contactForm";
+import FooterInfo from "./components/footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <img src={logo} alt="logo" />
         <img src={wood} alt="wood" />
       </div>
+      {/* <ContactForm /> */}
       <div className="container">
         <ul className="logo-list">
           <li>
@@ -30,6 +32,7 @@ function App() {
           </li>
         </ul>
       </div>
+      <FooterInfo />
     </div>
   );
 }
